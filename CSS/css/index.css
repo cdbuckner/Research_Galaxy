@@ -1,0 +1,70 @@
+#findproject {
+  margin-bottom: 0px;
+  padding: 18px 24px;
+  font-size: 24px;
+  font-weight: 200;
+  display: inline-block;
+  height: 20px;
+  line-height: 40px;
+  color: #555555;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  vertical-align: middle;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+#findprojectbox {
+  background-color: rgba(255, 255, 255, 0.3);
+
+  border-radius: 10px;
+  display: inline-block;
+  padding: 27px 24px;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  float: center;
+  margin-left: 0px;
+}
+
+.navbarclear {
+  background-color: rgba(27, 27, 27, 0.3)
+}
+
+.lighterbox {
+  background-color: #E3E3E3;
+  position: relative;
+  background-clip: border-box;
+}
+
+.padbottom {
+  padding-bottom: 60px;
+}
+
+.darkbox {
+  background-color: #1b1b1b;
+  color: #ffffff;
+}
+
+.lefttext {
+  text-align: left;
+}
+
+.jumboimage {
+  background-image: url(file:///Users/stephaniescapa/Documents/Research_Galaxy/IMGs/night_sky.jpg);
+}
+
+.jumboimage:before {  
+  content: "";  
+  display: block;  
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  background: rgba(0, 0, 0, 0.25);  
+  -moz-transition: background .3s linear;  
+  -webkit-transition: background .3s linear;  
+  -ms-transition: background .3s linear;  
+  -o-transition: background .3s linear;  
+  transition: background .3s linear;  
+}  
