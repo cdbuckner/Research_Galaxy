@@ -26,6 +26,21 @@
   margin-left: 0px;
 }
 
-.opaque {
-  opacity: 1.0;
+.navbarclear {
+  background-color: rgba(27, 27, 27, 0.3)
+}
+
+.lighterbox {
+  background-color: #f5f5f5;
+  position: absolute;
+  width: 100%;
+}
+
+.padbottom {
+  margin-bottom: 30px;
+}
+
+.darkbox {
+  background-color: #1b1b1b;
+  color: #ffffff;
 }
