@@ -1,0 +1,219 @@
+body {
+	padding-top: 0px;
+	height: 100%;
+	background-color: #DEDEDE;
+	background-image: url(file:///Users/stephaniescapa/Documents/Research_Galaxy/IMGs/galaxy_spacewarp_large.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;
+	color: #000000;
+
+}
+
+.middleboxtop {
+	border-top-color: #999999;
+	border-top-style: solid;
+	border-width: 1px;
+}
+
+.navigation {
+	border-radius: 0px;
+	background-image: none;
+	border-left: none;
+	border-right: none;
+}
+
+.navigation li {
+	display: inline-block;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.middlebox {
+	border-top-style: none;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-color: #999999;
+	border-width: 1px;
+	background-color: rgba(255,255,255, 1);
+	width: 90%;
+	height: auto;
+}
+
+.padspace {
+	width: 100%;
+	height: 20px;
+}
+
+.middleboxheader {
+	border-top-style: none;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: #999999;
+	border-width: 1px;
+	background-color: rgba(255,255,255, 1);
+	width: 90%;
+	height: auto;
+}
+
+.jumboheader h1 {
+	padding-top: 30px;
+	padding-left: 30px;
+	font-weight: 200;
+	font-size: 80px;
+	line-height: 1;
+	letter-spacing: -2px;
+}
+
+.jumboheader h2 {
+	padding-left: 30px;
+	padding-right: 60px;
+	padding-bottom: 20px;
+	font-weight: 200;
+	font-size: 20px;
+	width: 70%;
+	line-height: 1;
+}
+
+#findproject {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  padding: 6px 20px;
+  font-size: 14px;
+  font-weight: 200;
+  display: inline-block;
+  line-height: 30px;
+  color: #555555;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  vertical-align: middle;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+#submit {
+	margin-bottom: 30px;
+	font-size: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.projectcard {
+	width: 47%;
+	height: 250px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+h2 {
+	padding-left: 20px;
+}
+
+.stats {
+	height: 30%;
+	width: 100%
+	bottom: 0px;
+	position: relative;
+	line-height: normal;
+	clear: both;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.description {
+	top: 0px;
+	float: right;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+
+.undercard {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: #696969;
+}
+
+.image {
+	border-color: #999999;
+	border-right-style: solid;
+	border-width: 1px;
+	float: left;
+}
+
+.half1 {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 49.5%;
+	height: 100%;
+	border-color: #999999;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+.half2 {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 49.5%;
+	height: 100%;
+	border-color: #999999;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+img {
+	border-color: #999999;
+	border-bottom-style: solid;
+	border-width: 1px;
+	position: relative;
+	top: 0px;
+	float: left;
+	width: 100%;
+	height: 66%;
+	display: inline-block;
+	bottom: 0px;
+}
+
+.projectview {
+	margin-left: 10px;
+	width: 80%;
+	display: inline-block;
+}
+
+.projectview h2 {
+	font-size: 20px;
+	margin-left: none;
+}
+
+.toc a {
+	color: #000000;
+}
+
+.toc {
+	margin: 0px;
+	padding: 0px;
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.toc li {
+	padding-top: 10px;
+	list-style-type: none;
+}
