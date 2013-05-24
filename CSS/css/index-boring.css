@@ -9,8 +9,8 @@ body {
 	padding-top: 0px;
 	height: 100%;
 	background-color: #DEDEDE;
-	background-image: url(file:///Users/stephaniescapa/Documents/Research_Galaxy/IMGs/galaxy_spacewarp_large.jpg);
-	background-repeat: no-repeat;
+	background-image: url(file:///Users/stephaniescapa/Documents/Research_Galaxy/IMGs/px_by_Gre3g.png);
+	background-repeat: repeat;
 	background-position: top right;
 	background-attachment: fixed;
 	color: #000000;
@@ -19,7 +19,7 @@ body {
 
 .middleboxtop {
 	border-top-color: #999999;
-	border-top-style: solid;
+	border-top-style: none;
 	border-width: 1px;
 }
 
@@ -38,13 +38,13 @@ body {
 
 .middlebox {
 	border-top-style: none;
-	border-left-style: solid;
-	border-right-style: solid;
+	border-left-style: none;
+	border-right-style: none;
 	border-bottom-style: none;
 	border-color: #999999;
 	border-width: 1px;
 	background-color: rgba(255,255,255, 1);
-	width: 90%;
+	width: 85%;
 	height: auto;
 }
 
@@ -55,13 +55,13 @@ body {
 
 .middleboxheader {
 	border-top-style: none;
-	border-left-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
 	border-color: #999999;
 	border-width: 1px;
 	background-color: rgba(255,255,255, 1);
-	width: 90%;
+	width: 85%;
 	height: auto;
 }
 
