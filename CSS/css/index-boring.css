@@ -9,7 +9,7 @@ body {
 	padding-top: 0px;
 	height: 100%;
 	background-color: #DEDEDE;
-	background-image: url(file:///Users/stephaniescapa/Documents/Research_Galaxy/IMGs/px_by_Gre3g.png);
+	background-image: url(file:///Users/stephaniescapa/Documents/Research_Galaxy/IMGs/mochaGrunge.png);
 	background-repeat: repeat;
 	background-position: top right;
 	background-attachment: fixed;
@@ -32,8 +32,6 @@ body {
 
 .navigation li {
 	display: inline-block;
-	padding-right: 30px;
-	padding-left: 30px;
 }
 
 .middlebox {
@@ -44,12 +42,30 @@ body {
 	border-color: #999999;
 	border-width: 1px;
 	background-color: rgba(255,255,255, 1);
-	width: 85%;
+	float: left;
+	width: 70%;
+	margin-left: 5%;
+	
+	height: auto;
+}
+
+.middlebox2 {
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-color: #999999;
+	border-width: 1px;
+	background-color: rgba(255,255,255, 1);
+	float: left;
+	width: 70%;
+	margin-left: 5%;
+	margin-top: 20px;
 	height: auto;
 }
 
 .padspace {
-	width: 100%;
+	width: 70%;
 	height: 20px;
 }
 
@@ -61,7 +77,7 @@ body {
 	border-color: #999999;
 	border-width: 1px;
 	background-color: rgba(255,255,255, 1);
-	width: 85%;
+	width: 90%;
 	height: auto;
 }
 
@@ -141,6 +157,14 @@ h2 {
 	padding-top: 5px;
 }
 
+.description h4 {
+	font-size: 16px;
+}
+
+.description p {
+	font-size: 12px;
+}
+
 .undercard {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -197,7 +221,7 @@ img {
 
 .projectview {
 	margin-left: 10px;
-	width: 80%;
+	width: 97%;
 	display: inline-block;
 }
 
@@ -211,13 +235,27 @@ img {
 }
 
 .toc {
-	margin: 0px;
-	padding: 0px;
-	width: 15%;
+	width: 18%;
+	margin-right: 5%;
+	background-color: #ffffff;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 20px;
+	margin-left: 20px;
 	font-size: 18px;
+}
+
+.title {
+	font-size: 24px;
+	text-align: middle;
+	height: 40px;
+	line-height: 40px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+}
+
+.title p {
+	margin-left: 25px;
 }
 
 .toc li {
