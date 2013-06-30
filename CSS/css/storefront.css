@@ -1,0 +1,260 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 980px) {
+    body {
+      padding-top: 0;
+    }
+  }
+
+
+/*Text formats*/
+
+h1, h2{
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+/**/
+
+/*Main page container*/
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/**/
+
+/*Jumbo Header*/
+
+.header {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 60%;
+    background: url("../../IMGs/galaxy.jpeg");
+    background-size: 100% 100%;
+}
+
+.name {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+/**/
+
+/*Main navbar - changed to fixed top navbar through js based on scroll*/
+
+.navbar {
+    position: relative;
+    top: -42px;
+    opacity: 0.8;
+    margin-bottom: 0px;
+}
+
+.navbar-inner {
+    padding-right: 8%;
+    padding-left: 8%;
+    background-image: linear-gradient(to bottom, rgb(11, 8, 70), rgb(7, 6, 43));
+    border: 1px solid rgb(34, 18, 97);
+}
+
+.navbar.navbar-fixed-top > .navbar-inner.navigation > .container {
+    width: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.navbar.navbar-fixed-top {
+    position: fixed;
+    top: 0px;
+    opacity: 0.95;
+}
+
+.navbar .nav > li > a {
+    text-align: center;
+}
+
+.span3.navbar-search.pull-left  {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+/**/
+
+
+/*Sections holding the cards*/
+
+.section {
+    position: relative;
+    top: -42px;
+    height: 60%;
+    overflow: hidden;
+}
+
+
+.section:nth-child(2n) {  
+   background-color: rgb(217, 236, 236);
+}
+
+.section_label {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    padding: 10px;
+    border: 1px solid rgb(124, 109, 131);
+    background-color: rgb(195, 195, 224);
+}
+
+/**/
+
+
+/*Bottom of the page*/
+
+.mission {
+    height: 20%;
+    background-color: rgb(217, 236, 236);
+}
+
+.footer {
+    height: 30%;
+    background-color: #7f7f7f;
+}
+
+.footer .navbar {
+    top: 50%;
+}
+
+.footer .navbar .navbar-inner {
+    background-image: linear-gradient(to bottom, #7f7f7f, #7f7f7f);
+    border: 1px solid white;
+}
+
+/**/
+
+/*Setting up both right and left side of the card*/
+
+.card_left_side,.card_right_side {
+    position: relative;
+    float: left;
+    height: 60%;
+    border: 1px solid black;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 20px -4px #000;
+}
+
+.card_left_side {
+    margin-left: 4%;
+    width: 20%;
+}
+
+.card_right_side.closed {
+    border: 0px;
+}
+
+.card_left_side,.card_right_side {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card_top, .card_bottom {
+    position: absolute;
+    width: 100%;
+    opacity: 0.3;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.card_top {
+    top:0px;
+    height: 25%;
+}
+
+.card_bottom {
+    top: 90%;
+    height: 10%;
+}
+
+/**/
+
+/*Button for opening the card's right side*/
+
+.open_card_button {
+    position: absolute;
+    width: 10%;
+    left: 90%;
+    top: 40%;
+    height: 20%;
+    background-color: black;
+    float: right;
+    opacity: 0.2;
+    display: none;
+}
+
+.open_card_button i {
+    position: absolute;
+    top: 35%;
+}
+
+.open_card_button .icon-forward {
+    left: 40%;
+}
+
+.open_card_button .icon-backward {
+    left: 30%;
+}
+
+.card_left_side:hover .open_card_button{
+    display: inline;
+}
+
+/**/
+
+/*Author images*/
+
+.author {
+    position: absolute;
+    top: 35%;
+    left: -50px;
+    padding: 0px;
+    background-color: white;
+    background: url(http://m.c.lnkd.licdn.com/media/p/5/000/229/24a/3f5689b.jpg);
+    background-size: 150px 150px;
+    background-position: 70% 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+}
+
+.circle:hover:before {
+    position: absolute; display: block; content:'';
+    border: 1px solid #5c95c8;
+    left: -3%;
+    top: -3%;
+    height: 104%; width: 104%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+}
+
+/**/

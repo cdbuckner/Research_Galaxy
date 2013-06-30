@@ -14,7 +14,15 @@ body {
 	background-position: top right;
 	background-attachment: fixed;
 	color: #000000;
+}
 
+.navbar-fixed-top{
+	opacity: 0.97;
+}
+
+.card_title {
+	border: 1px solid black;
+	text-align: center;
 }
 
 .middleboxtop {
@@ -117,6 +125,10 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
+}
+
+.projectcard_timur {
+
 }
 
 h2 {

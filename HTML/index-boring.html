@@ -78,10 +78,11 @@
             </div>
           </div>
         </div>
-        <div class="projectcard">
+
+        <div class="projectcard projectcard_timur">
           
           <div class="half1">
-            <img src="../IMGs/easy_street.jpg">
+            <img src="../IMGs/stars.jpg">
             <div class="stats">
               <h4>Goal: More researchers</h4>
               <p>10 of 34 researchers needed</p>
@@ -89,14 +90,17 @@
             </div>
           </div>
           <div class="half2">
-            <div class="description">
+            <div class="card_title">
               <h4>Project Title</h4>
+            </div>
+            <div class="description">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <p class="undercard">Author: Christian Buckner</p>
               <p class="undercard">Orginization: Stanford University</p>
             </div>
           </div>
         </div>
+
         <div class="projectcard">
           
           <div class="half1">
@@ -298,5 +302,19 @@
         </ul>
       </div>  
     </div>
-  </body>  
+  </body> 
+
+  <script>
+  var navbar = document.querySelector('.navbar');
+  var origOffsetY = navbar.offsetTop;
+
+  function onScroll(e) {
+       window.scrollY >= origOffsetY ? 
+        navbar.classList.add('navbar-fixed-top') :
+        navbar.classList.remove('navbar-fixed-top');
+  };
+
+  document.addEventListener('scroll', onScroll); 
+  </script>
+
 </html>
