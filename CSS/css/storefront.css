@@ -130,20 +130,34 @@ body {
     opacity: 0.95;
 }
 
+.navbar .nav {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar .nav > li > a {
     text-align: center;
-    padding: 10px 0px 10px;
+    position: relative;
+    font-size: 12px;
+    padding: 10px 15px 10px;
     text-shadow: none;
     color: #fff;
 }
 
-.span3.navbar-search.pull-left  {
-    margin-top: 5px;
-    margin-left: 15px;
+.navbar-search  {
+    margin: 0;
+    padding: 0;
 }
 
-.search-query {
+.navbar-search input {
     border-radius: 0px;
+    width: 250px;
+    height: 25px;
+    font-size: 12px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 /**/
