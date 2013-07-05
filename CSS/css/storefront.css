@@ -20,7 +20,7 @@
 /*Text formats*/
 
 h1, h2{
-    color: white;
+    color: #fff;
 }
 
 h1 {
@@ -66,7 +66,7 @@ body {
 }
 
 .headerimage {
-    background: url("../../IMGs/galaxy.jpeg");
+    background: url("../../IMGs/heic1007e.jpg");
 }
 
 .header h2 {
@@ -111,7 +111,27 @@ body {
     margin-left: 20px;
     margin-top: 65px;
     margin-bottom: 90px;
-    background-color: rgba(224,224,224,0.9);
+    background-color: rgba(224,224,224,0.8);
+}
+
+.members h2 {
+    width: 100%;
+    color: #000;
+    font-weight: bolder;
+    text-shadow: none;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logininput {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logininput input {
+    height: 35px;
 }
 
 /**/
