@@ -1,11 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300);
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Lora);
 
 * {
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box;
     box-sizing: border-box; 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abel', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -70,7 +72,7 @@ body {
 }
 
 .header h2 {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.25;
     position: relative;
 }
@@ -117,6 +119,7 @@ body {
 .members h2 {
     width: 100%;
     color: #000;
+    font-size: 18px;
     font-weight: bolder;
     text-shadow: none;
     text-align: center;
@@ -180,7 +183,7 @@ body {
 .navbar .nav > li > a {
     text-align: center;
     position: relative;
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px 16px 10px;
     text-shadow: none;
     color: #fff;
