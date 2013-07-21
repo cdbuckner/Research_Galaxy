@@ -16,7 +16,51 @@
     body {
       padding-top: 0;
     }
-  }
+}
+
+@media (min-width: 1024px) {
+    .container-fluid {
+        width: 1024px;
+    }
+
+    .card_left_side,.card_right_side {
+        height: 300px;
+    }
+
+    .section {
+        height: 500px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-fluid {
+        width: 768px;
+    }
+
+    .card_left_side,.card_right_side {
+        height: 300px;
+    }
+
+    .section {
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        width: 320px;
+    }
+
+    .card_left_side,.card_right_side {
+        height: 300px;
+    }
+
+    .section {
+        height: 500px;
+    }
+}
 
 
 /*Text formats*/
@@ -40,7 +84,6 @@ body {
 }
 
 .container-fluid {
-    width: 1024px;
     margin-left: auto;
     margin-right: auto;
     -webkit-box-shadow: 3px 5px  #222,  -3px 5px  #222;   
@@ -217,7 +260,6 @@ body {
 .section {
     position: relative;
     top: -42px;
-    height: 60%;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
 }
@@ -267,7 +309,6 @@ body {
 .card_left_side,.card_right_side {
     position: relative;
     float: left;
-    height: 60%;
     border: 1px solid black;
     border-radius: 3px 3px 3px 3px;
     box-shadow: 0 0 20px -4px #000;
@@ -280,11 +321,6 @@ body {
 
 .card_right_side.closed {
     border: 0px;
-}
-
-.card_left_side,.card_right_side {
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .card_top, .card_bottom {
@@ -344,12 +380,12 @@ body {
 
 .author {
     position: absolute;
-    top: 35%;
-    left: -50px;
+    top: 38%;
+    left: -35px;
     padding: 0px;
     background-color: white;
     background: url(http://m.c.lnkd.licdn.com/media/p/5/000/229/24a/3f5689b.jpg);
-    background-size: 150px 150px;
+    background-size: 100px 100px;
     background-position: 70% 5%;
     border-width: 2px;
     border-style: solid;
@@ -357,8 +393,8 @@ body {
 }
 
 .circle {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%; 
@@ -367,8 +403,8 @@ body {
 .circle:hover:before {
     position: absolute; display: block; content:'';
     border: 1px solid #5c95c8;
-    left: -3%;
-    top: -3%;
+    left: -4%;
+    top: -4%;
     height: 104%; width: 104%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
