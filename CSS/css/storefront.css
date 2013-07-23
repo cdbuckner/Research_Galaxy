@@ -113,8 +113,7 @@ body {
     border-radius: 2px;
     box-shadow: 0px 0px 0pt 2pt #fff;
     height: 200px;
-    margin-right: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 65px;
     margin-bottom: 90px;
     background-color: rgba(224,224,224,0.8);
@@ -217,7 +216,7 @@ body {
 .section {
     position: relative;
     top: -42px;
-    height: 60%;
+    height: 560px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
 }
@@ -228,12 +227,10 @@ body {
 }
 
 .section_label {
-    position: absolute;
-    top: 0px;
-    left: 20px;
-    padding: 10px;
-    border: 1px solid rgb(124, 109, 131);
-    background-color: rgb(195, 195, 224);
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 28px;
 }
 
 /**/
@@ -247,7 +244,7 @@ body {
 }
 
 .footer {
-    height: 30%;
+    height: 200px;
     background-color: #7f7f7f;
 }
 
@@ -262,20 +259,38 @@ body {
 
 /**/
 
+/* Cards */
+
+.cards {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 /*Setting up both right and left side of the card*/
 
-.card_left_side,.card_right_side {
+.card_left_side{
     position: relative;
     float: left;
-    height: 60%;
+    height: 200px;
     border: 1px solid black;
-    border-radius: 3px 3px 3px 3px;
-    box-shadow: 0 0 20px -4px #000;
+    /* border-radius: 3px 3px 3px 3px; */
+    box-shadow: 0 0 0px 2px #ddd;
+}
+
+.card_right_side {
+    position: relative;
+    float: left;
+    height: 200px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .card_left_side {
-    margin-left: 4%;
-    width: 20%;
+    margin-left: 10px;
+    width: 208px;
 }
 
 .card_right_side.closed {
@@ -283,8 +298,8 @@ body {
 }
 
 .card_left_side,.card_right_side {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 10px;
+
 }
 
 .card_top, .card_bottom {
