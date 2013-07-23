@@ -69,8 +69,8 @@ body {
 }
 
 .headerimage {
-    background: url("../../IMGs/BigM51a-e1284783393286.jpeg");
-    background-position: right;
+    background: url("../../IMGs/download-galaxy-hd.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-color: #fff;
 }
@@ -94,7 +94,7 @@ body {
     bottom: 0;  
     left: 0;  
     right: 0;  
-    background: rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.40);
 }
 
 .name {
