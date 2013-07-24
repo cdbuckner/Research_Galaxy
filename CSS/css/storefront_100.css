@@ -1,0 +1,401 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 980px) {
+    body {
+      padding-top: 0;
+    }
+  }
+
+
+/*Text formats*/
+
+h1, h2{
+    color: #000;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+/**/
+
+/*Main page container*/
+body {
+    background: url("../../IMGs/tweed.png");
+    background-repeat: repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+.container-center {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+
+}
+
+/**/
+
+/*Jumbo Header*/
+
+.header {
+    color: #000;
+    position: relative;
+    display: block;
+    top: 0px;
+    width: 100%;
+    height: 370px;
+    background-size: 100% 100%;
+    background-color: #fff;
+    text-shadow: 0 1px 3px rgba(255,255,255,.4), 0 0 30px rgba(255,255,255,.075);
+
+}
+
+.headerimage {
+    background: url("../../IMGs/download-galaxy-hd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.header h2 {
+    font-size: 22px;
+    line-height: 1.25;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 70px;
+    position: relative;
+}
+
+.headerimage:before {
+    content: "";  
+    display: block;  
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    background: rgba(255, 255, 255, 0.40);
+}
+
+.name {
+    margin-top: 90px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+
+.objective {
+    margin-left: 80px;
+}
+
+.loginbox {
+    position: relative;
+    display: block;
+    float: left;
+    width: 230px;
+    min-height: 30px;
+    border: 1px double #000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0pt 2pt #fff;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 65px;
+    margin-bottom: 90px;
+    background-color: rgba(224,224,224,0.8);
+}
+
+.members h2 {
+    width: 100%;
+    color: #000;
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: none;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logininput {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logininput input {
+    height: 35px;
+}
+
+.title {
+    display: block;
+    float: left;
+    width: 665px;
+    min-height: 30px;
+}
+
+/**/
+
+/*Main navbar - changed to fixed top navbar through js based on scroll*/
+
+.navbar {
+    position: relative;
+    top: -42px;
+    opacity: 0.8;
+    margin-bottom: 0px;
+    background-color: rgba(0,0,0,0.75);
+    background-image: none;
+    border-radius: 0px;
+    border: none;
+}
+
+.navbar:before, .navbar:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.navbar:after {
+    clear: both;
+}
+
+.navbar.navbar-fixed-top {
+    position: fixed;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0px;
+    opacity: 0.95;
+}
+
+.navbar .nav {
+    margin: 0;
+    padding: 0;
+}
+
+.marg {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.navbar .nav > li > a {
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    padding: 10px 16px 10px;
+    text-shadow: none;
+    color: #fff;
+}
+
+.navbar-search  {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-search input {
+    border-radius: 2px;
+    width: 250px;
+    height: 25px;
+    font-size: 12px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+/**/
+
+
+/*Sections holding the cards*/
+
+.section {
+    position: relative;
+    top: -42px;
+    height: 560px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.section:nth-child(2n) {  
+   background-color: rgb(217, 236, 236);
+}
+
+.section_label {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+/**/
+
+
+/*Bottom of the page*/
+
+.mission {
+    height: 20%;
+    background-color: rgb(217, 236, 236);
+}
+
+.footer {
+    height: 200px;
+    background-color: #7f7f7f;
+}
+
+.footer .navbar {
+    top: 50%;
+}
+
+.footer .navbar .navbar-inner {
+    background-image: linear-gradient(to bottom, #7f7f7f, #7f7f7f);
+    border: 1px solid white;
+}
+
+/**/
+
+/* Cards */
+
+.cards {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Setting up both right and left side of the card*/
+
+.card_left_side{
+    position: relative;
+    float: left;
+    height: 200px;
+    border: 1px solid black;
+    /* border-radius: 3px 3px 3px 3px; */
+    box-shadow: 0 0 0px 2px #ddd;
+}
+
+.card_right_side {
+    position: relative;
+    float: left;
+    height: 200px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.card_left_side {
+    margin-left: 10px;
+    width: 208px;
+}
+
+.card_right_side.closed {
+    border: 0px;
+}
+
+.card_left_side,.card_right_side {
+    margin-top: 10px;
+
+}
+
+.card_top, .card_bottom {
+    position: absolute;
+    width: 100%;
+    opacity: 0.3;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.card_top {
+    top:0px;
+    height: 25%;
+}
+
+.card_bottom {
+    top: 90%;
+    height: 10%;
+}
+
+/**/
+
+/*Button for opening the card's right side*/
+
+.open_card_button {
+    position: absolute;
+    width: 10%;
+    left: 90%;
+    top: 40%;
+    height: 20%;
+    background-color: black;
+    float: right;
+    opacity: 0.2;
+    display: none;
+}
+
+.open_card_button i {
+    position: absolute;
+    top: 35%;
+}
+
+.open_card_button .icon-forward {
+    left: 40%;
+}
+
+.open_card_button .icon-backward {
+    left: 30%;
+}
+
+.card_left_side:hover .open_card_button{
+    display: inline;
+}
+
+/**/
+
+/*Author images*/
+
+.author {
+    position: absolute;
+    top: 35%;
+    left: -50px;
+    padding: 0px;
+    background-color: white;
+    background: url(http://m.c.lnkd.licdn.com/media/p/5/000/229/24a/3f5689b.jpg);
+    background-size: 150px 150px;
+    background-position: 70% 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+}
+
+.circle:hover:before {
+    position: absolute; display: block; content:'';
+    border: 1px solid #5c95c8;
+    left: -3%;
+    top: -3%;
+    height: 104%; width: 104%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+}
+
+/**/
