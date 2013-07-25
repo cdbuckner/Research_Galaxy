@@ -16,51 +16,7 @@
     body {
       padding-top: 0;
     }
-}
-
-@media (min-width: 1024px) {
-    .container-fluid {
-        width: 1024px;
-    }
-
-    .card_left_side,.card_right_side {
-        height: 300px;
-    }
-
-    .section {
-        height: 500px;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .container-fluid {
-        width: 768px;
-    }
-
-    .card_left_side,.card_right_side {
-        height: 300px;
-    }
-
-    .section {
-        height: 500px;
-    }
-}
-
-@media (max-width: 768px) {
-    .container-fluid {
-        width: 320px;
-    }
-
-    .card_left_side,.card_right_side {
-        height: 300px;
-    }
-
-    .section {
-        height: 500px;
-    }
-}
+  }
 
 
 /*Text formats*/
@@ -83,13 +39,10 @@ body {
     background-attachment: fixed;
 }
 
-.container-fluid {
+.container-center {
+    width: 1024px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-shadow: 3px 5px  #222,  -3px 5px  #222;   
-    -moz-box-shadow: 3px 0 5px #222,  -3px 0 5px #222;   
-    box-shadow: 3px 0 5px #222,  -3px 0 5px #222; 
-    /*margin: 0;*/
     padding: 0;
 
 }
@@ -152,6 +105,10 @@ body {
 
 .loginbox {
     position: relative;
+    display: block;
+    float: left;
+    width: 230px;
+    min-height: 30px;
     border: 1px double #000;
     border-radius: 2px;
     box-shadow: 0px 0px 0pt 2pt #fff;
@@ -183,6 +140,13 @@ body {
     height: 35px;
 }
 
+.title {
+    display: block;
+    float: left;
+    width: 665px;
+    min-height: 30px;
+}
+
 /**/
 
 /*Main navbar - changed to fixed top navbar through js based on scroll*/
@@ -192,29 +156,25 @@ body {
     top: -42px;
     opacity: 0.8;
     margin-bottom: 0px;
-
-}
-
-.navbar-inner {
-    padding-right: 8%;
-    padding-left: 8%;
     background-color: rgba(0,0,0,0.75);
     background-image: none;
     border-radius: 0px;
     border: none;
-    /*background-image: linear-gradient(to bottom, rgb(11, 8, 70), rgb(7, 6, 43));*/
-    /*border: 1px solid rgb(34, 18, 97);*/
 }
 
-.navbar.navbar-fixed-top > .navbar-inner.navigation > .container {
-    width: 100%;
-    padding-right: 8%;
-    padding-left: 8%;
+.navbar:before, .navbar:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.navbar:after {
+    clear: both;
 }
 
 .navbar.navbar-fixed-top {
     position: fixed;
-    width: 1024px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     top: 0px;
@@ -224,6 +184,11 @@ body {
 .navbar .nav {
     margin: 0;
     padding: 0;
+}
+
+.marg {
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .navbar .nav > li > a {
@@ -402,12 +367,12 @@ body {
 
 .author {
     position: absolute;
-    top: 38%;
-    left: -35px;
+    top: 35%;
+    left: -50px;
     padding: 0px;
     background-color: white;
     background: url(http://m.c.lnkd.licdn.com/media/p/5/000/229/24a/3f5689b.jpg);
-    background-size: 100px 100px;
+    background-size: 150px 150px;
     background-position: 70% 5%;
     border-width: 2px;
     border-style: solid;
@@ -415,8 +380,8 @@ body {
 }
 
 .circle {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%; 
@@ -425,8 +390,8 @@ body {
 .circle:hover:before {
     position: absolute; display: block; content:'';
     border: 1px solid #5c95c8;
-    left: -4%;
-    top: -4%;
+    left: -3%;
+    top: -3%;
     height: 104%; width: 104%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
