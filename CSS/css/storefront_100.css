@@ -241,28 +241,56 @@ body {
     font-size: 28px;
 }
 
+.mission {
+    height: 250px;
+}
+
 /**/
 
 
 /*Bottom of the page*/
 
-.mission {
-    height: 20%;
-    background-color: rgb(217, 236, 236);
-}
-
 .footer {
     height: 200px;
     background-color: #7f7f7f;
+
 }
 
 .footer .navbar {
     top: 50%;
 }
 
-.footer .navbar .navbar-inner {
+.footer .navbar {
     background-image: linear-gradient(to bottom, #7f7f7f, #7f7f7f);
     border: 1px solid white;
+}
+
+.footer > ul > li > a {
+    list-style: none;
+    float: none;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    padding: 10px 16px 10px;
+    text-shadow: none;
+    color: #fff;
+}
+
+.footer > ul > li {
+    width: 170px;
+    float: left;
+}
+
+.footer ul:before, .footer ul:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.footer ul:after {
+    clear: both;
 }
 
 /**/
