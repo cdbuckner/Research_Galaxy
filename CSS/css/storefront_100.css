@@ -57,7 +57,7 @@ body {
     display: block;
     top: 0px;
     width: 100%;
-    height: 330px;
+    height: 370px;
     background-size: 100% 100%;
     background-color: #fff;
     text-shadow: 0 1px 3px rgba(255,255,255,.4), 0 0 30px rgba(255,255,255,.075);
@@ -65,10 +65,10 @@ body {
 }
 
 .headerimage {
-    background: url("../../IMGs/download-galaxy-hd.jpg");
+    /*background: url("../../IMGs/download-galaxy-hd.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #fff;
+    background-color: #B1D1C2;
 }
 
 .header h2 {
@@ -94,7 +94,7 @@ body {
 }
 
 .name {
-    margin-top: 90px;
+    margin-top: 110px;
     margin-bottom: 25px;
     margin-left: 80px;
 }
@@ -109,19 +109,18 @@ body {
     float: left;
     width: 230px;
     min-height: 30px;
-    border: 1px double #000;
-    border-radius: 2px;
-    box-shadow: 0px 0px 0pt 2pt #fff;
+    border: 1px double rgb(201, 201, 201);
+    border-radius: 3px;
     height: 200px;
     margin-left: 50px;
-    margin-top: 65px;
+    margin-top: 85px;
     margin-bottom: 90px;
-    background-color: rgba(224,224,224,0.8);
+    background-color: rgb(255,255,255);
 }
 
 .members h2 {
     width: 100%;
-    color: #000;
+    color: rgb(94, 94, 94);
     font-size: 18px;
     font-weight: bolder;
     text-shadow: none;
@@ -138,6 +137,8 @@ body {
 
 .logininput input {
     height: 35px;
+    border-radius: 2px;
+    font-size: 12px;
 }
 
 .title {
@@ -153,10 +154,15 @@ body {
 
 .navbar {
     margin-bottom: 0px;
-    background-color: #669999;
+    background-color: #fff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(209, 209, 209);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(209, 209, 209);
     background-image: none;
     border-radius: 0px;
-    border: none;
     height: 70px;
 }
 
@@ -173,6 +179,7 @@ body {
 .navbar.navbar-fixed-top {
     position: fixed;
     width: 100%;
+    border-top: none;
     margin-right: auto;
     margin-left: auto;
     top: 0px;
@@ -190,25 +197,30 @@ body {
     margin-left: 80px;
 }
 
+.home {
+    color: #ff9640;
+    font-size: 30pt;
+}
+
 .navbar .nav > li > a {
     text-align: center;
     position: relative;
     font-size: 14px;
     padding: 10px 19px 10px;
     text-shadow: none;
-    color: #fff;
+    color: rgb(53, 163, 97);
 }
 
 .navbar-search  {
     margin: 0;
     padding: 0;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 .navbar-search input {
     border-radius: 2px;
     width: 250px;
-    height: 25px;
+    height: 35px;
     font-size: 12px;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -228,7 +240,7 @@ body {
 }
 
 .section:nth-child(2n) {  
-   background-color: #99CCCC;
+   background-color: #B1D1C2;
 }
 
 .section_label {
@@ -295,7 +307,7 @@ body {
     float: left;
     height: 200px;
     border: 1px solid black;
-    /* border-radius: 3px 3px 3px 3px; */
+    border-radius: 2px;
     box-shadow: 0 0 0px 2px #ddd;
 }
 
@@ -303,6 +315,8 @@ body {
     position: relative;
     float: left;
     height: 200px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
