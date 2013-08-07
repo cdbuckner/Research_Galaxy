@@ -278,7 +278,7 @@ body {
     font-size: 14px;
     padding: 10px 18px 10px;
     text-shadow: none;
-    color: rgb(53, 163, 97);
+    color: rgb(8, 121, 53);
 }
 
 .navbar .nav > li > a {
@@ -361,7 +361,7 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 10px 16px 10px;
-    color: rgb(53, 163, 97);
+    color: rgb(8, 121, 53);
 }
 
 .footer-container > ul > li {
