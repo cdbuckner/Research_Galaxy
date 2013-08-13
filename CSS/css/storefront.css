@@ -176,7 +176,12 @@ body {
     height: 1200px;
     background-size: 100% 100%;
     text-shadow: 0 1px 3px rgba(255,255,255,.4), 0 0 30px rgba(255,255,255,.075);
-    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.cpfooter {
+    background-color: rgb(202, 230, 217);
+    height: 200px
+
 }
 
 .pagehead {
@@ -236,11 +241,79 @@ body {
     margin-right: auto;
 }
 
-.projectbody{
+.projectbody {
     background-color: #fff;
     width: 100%;
     height: 800px;
     margin-bottom: 40px;
+}
+
+/* View member page */
+
+.memberinfo {
+    height: 400px;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.ownedprojects {
+    margin-left: 80px;
+    float: left;
+    width: 431;
+}
+
+.contibutedprojects {
+    float: left;
+}
+
+.projectlists {
+    margin-top: 40px;
+    height: 800px;
+}
+
+/* Search page */
+
+.searchfilters {
+    height: 300px;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.search-darkspace {
+    background-color: rgb(78, 78, 78);
+    height: 30px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.searchtitle h3 {
+    padding-top: 20px;
+    margin: 0;
+    margin-left: 80px;
+    float: left;
+}
+
+.searchtitle a {
+    float: right;
+    font-size: 23px;
+    padding-top: 30px;
+    color: #444;
+    margin-right: 80px;
+}
+
+/* Members */
+
+.memberlist {
+    margin-top: 40px;
+    height: 800px;
+}
+
+/* Projects */
+
+.projectlist {
+    margin-top: 40px;
+    height: 800px;
 }
 
 /**/
