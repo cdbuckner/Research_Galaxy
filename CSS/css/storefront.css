@@ -292,6 +292,7 @@ body {
     margin: 0;
     margin-left: 80px;
     float: left;
+    width: 500px
 }
 
 .searchtitle a {
@@ -300,6 +301,26 @@ body {
     padding-top: 30px;
     color: #444;
     margin-right: 80px;
+}
+
+.searchfilters-column {
+    height: 260px;
+    width: 431px;
+    margin-left: 80px;
+    margin-top: 15px;
+    float: left;
+}
+
+.searchfilters-column input {
+    border-radius: 2px;
+    width: 400px;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.sfcolumn-right {
+    margin-left: 0px;
 }
 
 /* Members */
