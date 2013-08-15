@@ -233,12 +233,38 @@ body {
     border: 1px solid rgb(209, 209, 209);
 }
 
-.projectimage {
+.projectjumbotron {
     width: 100%;
-    height: 500px;
+    height: 425px;
     background-color: rgb(78, 78, 78);
     margin-left: auto;
     margin-right: auto;
+}
+
+.projecttitle {
+    height: 120px;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 305px;
+    width: 100%;
+    position: absolute;
+}
+
+.projecttitle .container-center h1 {
+    color: #fff;
+    margin-left: 80px;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 600px;
+    font-weight: normal;
+}
+
+.projecttitle .container-center h2 {
+    color: #fff;
+    margin: 0;
+    margin-left: 80px;
+    font-size: 17px;
+    width: 700px;
 }
 
 .projectbody {
