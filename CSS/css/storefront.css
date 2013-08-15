@@ -217,6 +217,10 @@ body {
     margin-bottom: 40px;
 }
 
+.withmargin {
+    margin-left: 80px;
+}
+
 /*View Project Page*/
 
 .viewproject-whitespace {
@@ -231,6 +235,18 @@ body {
     background-color: rgb(231, 231, 231);
     width: 100%;
     border: 1px solid rgb(209, 209, 209);
+}
+
+.keyitems-column {
+    width: 287px;
+    height: 239px;
+    float: left;
+}
+
+.keyitems-column h3 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 20px;
 }
 
 .projectjumbotron {
@@ -311,7 +327,7 @@ body {
 }
 
 .biography {
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
     float: left;
 }
@@ -330,7 +346,7 @@ body {
 }
 
 .memberstats {
-    width: 270px;
+    width: 320px;
     margin-left: 20px;
     float: left;
 }
@@ -341,6 +357,67 @@ body {
     margin: 0;
     margin-bottom: 10px;
     line-height: 20px
+}
+
+.contactinformation {
+    margin-top: 20px;
+    float: left;
+    width: 320px;
+    margin-left: 20px;
+}
+
+.contactinformation h4 {
+    font-size: 13px;
+    color: rgb(50,50,50);
+    margin: 0;
+    line-height: 20px;
+
+}
+
+.contacttitles {
+    float: left;
+    width: 100px;
+}
+
+.contactdata {
+    float: left;
+    width: 200px;
+    margin-left: 19px;
+}
+
+.contactdata h4 {
+    font-size: 13px;
+    color: rgb(50,50,50);
+    margin: 0;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.statstitles {
+    float: left;
+    width: 100px;
+}
+
+.statstitles h4 {
+    font-size: 13px;
+    color: rgb(50,50,50);
+    margin: 0;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.memberstatsdata {
+    float: left;
+    width: 200px;
+    margin-left: 19px;
+}
+
+.memberstatsdata h4 {
+    font-size: 13px;
+    color: rgb(50,50,50);
+    margin: 0;
+    line-height: 20px;
+    font-weight: normal;
 }
 
 .contibutedprojects {
