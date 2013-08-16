@@ -217,10 +217,6 @@ body {
     margin-bottom: 40px;
 }
 
-.withmargin {
-    margin-left: 80px;
-}
-
 /*View Project Page*/
 
 .viewproject-whitespace {
@@ -237,16 +233,27 @@ body {
     border: 1px solid rgb(209, 209, 209);
 }
 
+.keyitems {
+    margin-left: 80px;
+}
+
 .keyitems-column {
-    width: 287px;
+    width: 277px;
     height: 239px;
     float: left;
+    margin-left: 15px;
 }
 
 .keyitems-column h3 {
     font-size: 18px;
     line-height: 18px;
-    margin-top: 20px;
+    margin-top: 27px;
+    float: left;
+    width: 276px;
+}
+
+.keyitems-column:first-child {
+    margin-left: 0;
 }
 
 .projectjumbotron {
@@ -256,6 +263,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .projecttitle {
     height: 120px;
@@ -288,6 +296,34 @@ body {
     width: 100%;
     height: 800px;
     margin-bottom: 40px;
+}
+
+.statsdata-thin {
+    float: left;
+    width: 156px;
+    margin-left: 19px;
+}
+
+.statsdata-thin h4 {
+    font-size: 13px;
+    color: rgb(50,50,50);
+    margin: 0;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.contactdata-thin {
+    float: left;
+    width: 156px;
+    margin-left: 19px;
+}
+
+.contactdata-thin h4 {
+    font-size: 13px;
+    color: rgb(50,50,50);
+    margin: 0;
+    line-height: 20px;
+    font-weight: normal;
 }
 
 /* View member page */
@@ -366,7 +402,7 @@ body {
     margin-left: 20px;
 }
 
-.contactinformation h4 {
+.contacttitles h4 {
     font-size: 13px;
     color: rgb(50,50,50);
     margin: 0;
@@ -406,13 +442,13 @@ body {
     font-weight: normal;
 }
 
-.memberstatsdata {
+.statsdata {
     float: left;
     width: 200px;
     margin-left: 19px;
 }
 
-.memberstatsdata h4 {
+.statsdata h4 {
     font-size: 13px;
     color: rgb(50,50,50);
     margin: 0;
