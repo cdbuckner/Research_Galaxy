@@ -536,6 +536,106 @@ body {
     margin-top: 85px;
 }
 
+/* Sign up page */
+
+.becomemember-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 160px;
+}
+
+.becomemember-header h1 {
+    font-size: 40px;
+}
+
+.toc-container {
+    width: 307px;
+    height: 800px;
+    border-right: 1px solid rgb(209, 209, 209);
+    float: left;
+    margin-bottom: 60px;
+}
+
+.becomemember-inputs {
+    width: 696px;
+    height: 800px;
+    float: left;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+
+#becomemember-generalinformation {
+    height: 260px;
+}
+
+#becomemember-credentials {
+    height: 160px
+}
+
+.toc-container a {
+    color:  #000;
+    width: 286px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+#becomemember-generalinformation h2,
+#becomemember-credentials h2 {
+    font-size: 18px;
+    line-height: 18px;
+    width: 695px;
+}
+
+#becomemember-generalinformation input,
+#becomemember-credentials input {
+    border-radius: 2px;
+    width: 400px;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+#becomemember-generalinformation p {
+    float: left;
+    padding-top: 3px;
+    padding-right: 10px;
+    width: 150px;
+    color: rgb(60,60,60);
+}
+
+#becomemember-credentials p {
+    float: left;
+    padding-top: 3px;
+    padding-right: 10px;
+    color: rgb(60,60,60);
+}
+
+.setwidth150 {
+    float: left;
+    padding-top: 3px;
+    padding-right: 10px;
+    width: 150px;
+    color: rgb(60,60,60);
+}
+
+.year-label {
+    width: 100px;
+    margin-left: 20px;
+}
+
+#undergrad-degree {
+    width: 200px;
+}
+
+#undergrad-year {
+    width: 80px;
+}
+
 /* Search page */
 
 .searchfilters {
