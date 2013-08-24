@@ -550,26 +550,82 @@ body {
 
 .toc-container {
     width: 307px;
-    height: 800px;
+    height: 1000px;
     border-right: 1px solid rgb(209, 209, 209);
     float: left;
     margin-bottom: 60px;
 }
 
+#member-firstname,
+#member-lastname,
+#member-middlename,
+#member-email,
+#member-reenteremail,
+#member-password,
+#member-reenterpassword,
+#undergrad-university, 
+#grad-university,
+#member-currentuni,
+#member-currentinstitution,
+#member-currentinstitutionrole,
+#member-currentunirole {
+    border-radius: 2px;
+    width: 450px;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+#dob-day,
+#dob-month {
+    border-radius: 2px;
+    width: 40px;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+#dob-year {
+    border-radius: 2px;
+    width: 80px;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-right: 300px;
+    float: left; 
+}
+
+#becomemember-generalinformation .dob-slash {
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .becomemember-inputs {
     width: 696px;
-    height: 800px;
+    height: 1000px;
     float: left;
     margin-bottom: 60px;
     margin-left: 20px;
 }
 
 #becomemember-generalinformation {
+    height: 290px;
+}
+
+#becomemember-additionalinformation {
     height: 260px;
 }
 
 #becomemember-credentials {
     height: 160px
+}
+
+#becomemember-affiliations {
+    height: 160px;
 }
 
 .toc-container a {
@@ -584,35 +640,12 @@ body {
 }
 
 #becomemember-generalinformation h2,
-#becomemember-credentials h2 {
+#becomemember-credentials h2,
+#becomemember-additionalinformation h2,
+#becomemember-affiliations h2 {
     font-size: 18px;
     line-height: 18px;
     width: 695px;
-}
-
-#becomemember-generalinformation input,
-#becomemember-credentials input {
-    border-radius: 2px;
-    width: 400px;
-    height: 28px;
-    font-size: 12px;
-    margin-bottom: 5px;
-    float: left;
-}
-
-#becomemember-generalinformation p {
-    float: left;
-    padding-top: 3px;
-    padding-right: 10px;
-    width: 150px;
-    color: rgb(60,60,60);
-}
-
-#becomemember-credentials p {
-    float: left;
-    padding-top: 3px;
-    padding-right: 10px;
-    color: rgb(60,60,60);
 }
 
 .setwidth150 {
@@ -624,15 +657,48 @@ body {
 }
 
 .year-label {
-    width: 100px;
+    width: 50px;
+    margin-top: 3px;
     margin-left: 20px;
+    float: left;
+    color: rgb(60,60,60);
 }
 
-#undergrad-degree {
-    width: 200px;
+.field-label {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 3px;
+    float: left;
+    color: rgb(60,60,60);
 }
 
-#undergrad-year {
+#undergrad-degree,
+#grad-degree {
+    border-radius: 2px;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    float: left;
+    width: 80px;
+}
+
+#undergrad-field,
+#grad-field {
+    border-radius: 2px;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    float: left;
+    width: 191px;
+}
+
+#undergrad-year,
+#grad-year {
+    border-radius: 2px;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    float: left;
     width: 80px;
 }
 
