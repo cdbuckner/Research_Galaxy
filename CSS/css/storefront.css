@@ -751,6 +751,7 @@ body {
 
 .searchfilters-column p {
     float: left;
+    width: 115px;
     padding-top: 3px;
     padding-right: 10px;
     color: rgb(60,60,60);
